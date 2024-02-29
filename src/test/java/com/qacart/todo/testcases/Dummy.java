@@ -52,4 +52,11 @@ public class Dummy {
         System.out.println("Hello dummy4");
 
     }
+
+    public void printMsg3() {
+        System.out.println("Hello dummy5");
+        System.out.println("Hello dummy6");
+        System.out.println("Hello dummy7);
+
+    }
 }
