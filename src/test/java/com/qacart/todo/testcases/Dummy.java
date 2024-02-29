@@ -44,4 +44,12 @@ public class Dummy {
 
        driver.quit();
     }
+
+    public void printMsg() {
+        System.out.println("Hello dummy1");
+        System.out.println("Hello dummy2");
+        System.out.println("Hello dummy3");
+        System.out.println("Hello dummy4");
+
+    }
 }
