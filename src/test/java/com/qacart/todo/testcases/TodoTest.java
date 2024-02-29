@@ -97,6 +97,11 @@ public class TodoTest extends BaseTest {
     public void printMsg() {
         System.out.println("Hello github1");
         System.out.println("Hello github2");
+
+        System.out.println("Hello github3");
+        System.out.println("Hello github4");
+        System.out.println("Hello github5");
+        System.out.println("Hello github6");
     }
 
 }

@@ -33,4 +33,10 @@ public class LoginTest extends BaseTest {
 
     }
 
+    public void printMsg2() {
+        System.out.println("Hello world");
+        System.out.println("Hello world");
+        System.out.println("Hello world");
+    }
+
 }
