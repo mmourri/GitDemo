@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="45.822" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/abdelatifmouri/Documents/QA_cart/Selenium-todo-project/target/test-classes:/Users/abdelatifmouri/Documents/QA_cart/Selenium-todo-project/target/classes:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-java/4.3.0/selenium-java-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-api/4.3.0/selenium-api-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.3.0/selenium-chrome-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/abdelatifmouri/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/abdelatifmouri/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/abdelatifmouri/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/abdelatifmouri/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/abdelatifmouri/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abdelatifmouri/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/abdelatifmouri/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/abdelatifmouri/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.3.0/selenium-chromium-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-json/4.3.0/selenium-json-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.3.0/selenium-devtools-v101-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.3.0/selenium-devtools-v102-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.3.0/selenium-devtools-v103-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.3.0/selenium-devtools-v85-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.3.0/selenium-edge-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.3.0/selenium-firefox-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.3.0/selenium-ie-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.3.0/selenium-opera-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.3.0/selenium-remote-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-api/1.15.0/opentelemetry-api-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-context/1.15.0/opentelemetry-context-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.15.0/opentelemetry-exporter-logging-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.15.0/opentelemetry-sdk-metrics-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.15.0-alpha/opentelemetry-sdk-logs-1.15.0-alpha.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.15.0/opentelemetry-sdk-common-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.15.0/opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.15.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.15.0/opentelemetry-sdk-trace-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.15.0/opentelemetry-sdk-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.15.0-alpha/opentelemetry-semconv-1.15.0-alpha.jar:/Users/abdelatifmouri/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/abdelatifmouri/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/abdelatifmouri/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/abdelatifmouri/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/abdelatifmouri/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/abdelatifmouri/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/abdelatifmouri/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/abdelatifmouri/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-http/4.3.0/selenium-http-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.3.0/selenium-safari-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-support/4.3.0/selenium-support-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.0/webdrivermanager-5.2.0.jar:/Users/abdelatifmouri/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/abdelatifmouri/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/abdelatifmouri/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/abdelatifmouri/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/abdelatifmouri/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/abdelatifmouri/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/abdelatifmouri/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/abdelatifmouri/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/abdelatifmouri/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/abdelatifmouri/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/abdelatifmouri/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/abdelatifmouri/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/abdelatifmouri/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/abdelatifmouri/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/abdelatifmouri/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/abdelatifmouri/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/abdelatifmouri/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/abdelatifmouri/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/abdelatifmouri/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/abdelatifmouri/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/abdelatifmouri/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/abdelatifmouri/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/abdelatifmouri/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/abdelatifmouri/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/abdelatifmouri/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/abdelatifmouri/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/abdelatifmouri/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/abdelatifmouri/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/abdelatifmouri/.m2/repository/io/qameta/allure/allure-testng/2.18.0/allure-testng-2.18.0.jar:/Users/abdelatifmouri/.m2/repository/io/qameta/allure/allure-java-commons/2.18.0/allure-java-commons-2.18.0.jar:/Users/abdelatifmouri/.m2/repository/io/qameta/allure/allure-model/2.18.0/allure-model-2.18.0.jar:/Users/abdelatifmouri/.m2/repository/io/qameta/allure/allure-test-filter/2.18.0/allure-test-filter-2.18.0.jar:"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/abdelatifmouri/Documents/QA_cart/Selenium-todo-project/target/surefire/surefirebooter-20231126221318073_3.jar /Users/abdelatifmouri/Documents/QA_cart/Selenium-todo-project/target/surefire 2023-11-26T22-13-17_896-jvmRun1 surefire-20231126221318073_1tmp surefire_0-20231126221318073_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/abdelatifmouri/Documents/QA_cart/Selenium-todo-project/target/test-classes:/Users/abdelatifmouri/Documents/QA_cart/Selenium-todo-project/target/classes:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-java/4.3.0/selenium-java-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-api/4.3.0/selenium-api-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.3.0/selenium-chrome-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/abdelatifmouri/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/abdelatifmouri/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/abdelatifmouri/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/abdelatifmouri/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/abdelatifmouri/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abdelatifmouri/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/abdelatifmouri/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/abdelatifmouri/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.3.0/selenium-chromium-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-json/4.3.0/selenium-json-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.3.0/selenium-devtools-v101-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.3.0/selenium-devtools-v102-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.3.0/selenium-devtools-v103-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.3.0/selenium-devtools-v85-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.3.0/selenium-edge-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.3.0/selenium-firefox-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.3.0/selenium-ie-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.3.0/selenium-opera-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.3.0/selenium-remote-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-api/1.15.0/opentelemetry-api-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-context/1.15.0/opentelemetry-context-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.15.0/opentelemetry-exporter-logging-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.15.0/opentelemetry-sdk-metrics-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.15.0-alpha/opentelemetry-sdk-logs-1.15.0-alpha.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.15.0/opentelemetry-sdk-common-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.15.0/opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.15.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.15.0/opentelemetry-sdk-trace-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.15.0/opentelemetry-sdk-1.15.0.jar:/Users/abdelatifmouri/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.15.0-alpha/opentelemetry-semconv-1.15.0-alpha.jar:/Users/abdelatifmouri/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/abdelatifmouri/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/abdelatifmouri/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/abdelatifmouri/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/abdelatifmouri/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/abdelatifmouri/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/abdelatifmouri/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/abdelatifmouri/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/abdelatifmouri/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-http/4.3.0/selenium-http-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.3.0/selenium-safari-driver-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/seleniumhq/selenium/selenium-support/4.3.0/selenium-support-4.3.0.jar:/Users/abdelatifmouri/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.0/webdrivermanager-5.2.0.jar:/Users/abdelatifmouri/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/abdelatifmouri/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/abdelatifmouri/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/abdelatifmouri/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/abdelatifmouri/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/abdelatifmouri/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/abdelatifmouri/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/abdelatifmouri/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/abdelatifmouri/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/abdelatifmouri/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/abdelatifmouri/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/abdelatifmouri/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/abdelatifmouri/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/abdelatifmouri/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/abdelatifmouri/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/abdelatifmouri/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/abdelatifmouri/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/abdelatifmouri/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/abdelatifmouri/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/abdelatifmouri/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/abdelatifmouri/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/abdelatifmouri/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/abdelatifmouri/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/abdelatifmouri/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/abdelatifmouri/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/abdelatifmouri/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/abdelatifmouri/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/abdelatifmouri/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/abdelatifmouri/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/abdelatifmouri/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/abdelatifmouri/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/abdelatifmouri/.m2/repository/io/qameta/allure/allure-testng/2.18.0/allure-testng-2.18.0.jar:/Users/abdelatifmouri/.m2/repository/io/qameta/allure/allure-java-commons/2.18.0/allure-java-commons-2.18.0.jar:/Users/abdelatifmouri/.m2/repository/io/qameta/allure/allure-model/2.18.0/allure-model-2.18.0.jar:/Users/abdelatifmouri/.m2/repository/io/qameta/allure/allure-test-filter/2.18.0/allure-test-filter-2.18.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/abdelatifmouri"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/abdelatifmouri/Documents/QA_cart/Selenium-todo-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/abdelatifmouri/Documents/QA_cart/Selenium-todo-project/target/surefire/surefirebooter-20231126221318073_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.9+9-adhoc.admin.jdk17u"/>
+    <property name="user.name" value="abdelatifmouri"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="localRepository" value="/Users/abdelatifmouri/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mw/6_tvk51j48s_4h576p26zk_00000gn/T/"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="/Users/abdelatifmouri/Documents/QA_cart/Selenium-todo-project"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="/Users/abdelatifmouri/.cache/selenium/geckodriver/mac64/0.33.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/abdelatifmouri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.vm.version" value="17.0.9+9-adhoc.admin.jdk17u"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldBeAbleToLoginWithEmailAndPassword" classname="com.qacart.todo.testcases.LoginTest" time="6.384">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1170101657610010056357	6g0e1c01k60o5d60r150i3v0	e5greckodriver	INFO	Li3stening on 	127.0.0g.1:5423e0
+ckodriver	INFO		Listening on 127.0.0.1:62610
+INFO	Listening on 127.0.0.1:49964
+111777000110650610922	1m0o6z5r6u1n0n9e2r2::	rmouzrunnnneerr	:I:NruFnn6er5O	6Ru1n092	ning command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPOR2ITE	NFO	RunninR_SHgUTDOW cNomm=and: "MOZ_CRASHRE1" MOZ_NO_REMOTE="1" "/App ...PORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... alhost:53162/" "-foreground" "-no-remote" "-profile" " /vaarlhost/:6folders/mw/6_tvk51j48s_4h576p26zm52ko67_z/" "-foreground" "-n0o0-0r0e0mgont/eT/rruusntn_emro:"z:pr unner	"Irof-iNFO	Runningp command:ro fMiOZl_CRASHeREPO"RT ER="1" MOZ"l_/eC5RvA4ar/folders/mw/6_tvk51j48s_4h576p26zk_00000gn/T/rust_mozprofileWkRSMU"
+tdIY"
+SHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... alhost:59768/" "-foreground" "-no-remote" "-profile" "/var/folders/mw/6_tvk51j48s_4h576p26zk_00000gn/T/rust_mozprofileROcR8N"
+cccooonsnnole.warn: services.settings:ssole.warn:ole.warn:  servicess.seertvtiicnegss.:s Ignoring preference override of remote settings server
+ettin Ignoringgs :p Ignoring preference override of remote settings servreefr
+console.warn: services.scetotnings: Alerence override of remotesolo ws ebtyt isetting MOZ_lREMOnTEgs server
+e.warn:_ cSsoeErnvsiocTeTsIN.selGtteiS._nDgEsV:T OAOwlLlSo=w1  iby setting MOZ_REMOTEa_nrnS:E  TsterTviIces.settinhgs: Allow byN e enviGSr_sDoeEtntiment
+ng VTMOOOLS=1 in the environment
+Z_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+22202023-11-26 22:13:32.159 f3i-r1efox-1b-i2n6 22[:13:32.15849 firefox-4bin[84458:57:15602205] WARNING: Secure coding is not enabled for restorable state! 1En5602207] WARNING: Secure codinga0bl2 i3-es secu not enabled 11-26 22:13:32.159 ffiorrree restorable state! Enable secure coding by im plemceondtiinngg  NbSyA pipmlpilceamteinotniDnegl eNgSaAtpep.laipcpaltiicoantDieolneSguaptpeo.ratpspSleiccuareRestorablteiStofnaStuep:opxor tand ret-bin[84459:1s5SuercnuirngeR6e0s2t YoESr.a
+bleState2:0 6and ret]urning YE S.
+WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+111707701065613048	Marionette	INF01065613048	Marionette	INFO1	Mar0i6o5n6e13t0t4e8 	eMnaarbiloneOde
+t	tMea	rINFOi	oMnaertite enabled
+onette enabled
+coconnsosloel.ee.rerrorro:r : "Warning: unre"Warning: unreccogncoognized command line nsized command lflinole fel.ag"er r"o-rrem:o t"Warnaing: unrecognized command line flag" "-remote-allogw-e" h"o-remote-allsowt-sho"s
+ts"
+-allow-hosts"
+console.error: "Warning: unrecognized comcmaondn lsionlee .error: "Warflag" "-remning: unrecogncoonte-allow-origins"
+sole.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+ized command line flag" "-remote-allow-origins"
+17010656139192	M701a01r6i5o6n17e30t1t06e5	69I19239	N9MF2aO	r	iLoiManrestitotene	enItiNntFgeO 		LIoiNnFs Opt	eLoinristn g5 8o81tn6 e
+pninogr to n58817
+ port 58815
+Read port: 58816
+Read port: 58817
+WebDWebDriver BiDi listening on ws://127.0.0.1:65267
+river BiDi listening on ws://127.0.0.1:59768
+WebDriver BiDi listening on ws://127.0.0.1:53162
+Read port: 58815
+1701065614177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701065614285	RemoteAgent	WARN	TLS certifica1701065614288	RemoteAgent	WARN	TLS certificate errors will be ignote errors will be ignorreed for d for this session
+this session
+DDevTools listening on ws://127.0.0.1:53162/devtools/browser/00944a95-f351-4f2e-8b7c-6e73fb09d248
+evTools listening on ws://127.0.0.1:65D267/devtools/browser/e7b57372-90b0-4fa6-b1b3-4d20d0716f2f
+evTools listening on ws://127.0.0.1:59768/devtools/browser/a767b593-fe3b-42e4-bbdb-67531899911b
+Nov 26, 2023 10:13:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 26, 2023 10:13:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 26, 2023 10:13:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://todo.qacart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://todo.qacart.com."
+]]></system-err>
+  </testcase>
+  <testcase name="shouldBeAbleToAddNewTodo" classname="com.qacart.todo.testcases.TodoTest" time="20.566">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://todo.qacart.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "renay.anderson@hotmail.com",
+    "password": "l6jozht2hhj107u",
+    "firstName": "Margaret",
+    "lastName": "Daniel"
+}
+Request method:	POST
+Request URI:	https://todo.qacart.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "fleta.bailey@gmail.com",
+    "password": "r6t11qe2dj3slk6",
+    "firstName": "Wilmer",
+    "lastName": "Schuster"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701065635&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=hhqRnZl25BtaPupfA2q7sLxsOW9FQT9fMbgVIlWdgOQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701065635&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=hhqRnZl25BtaPupfA2q7sLxsOW9FQT9fMbgVIlWdgOQ%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NjQzM2EzN2Q4ZjlhMDAxNGM4NWI3YiIsImZpcnN0TmFtZSI6IldpbG1lciIsImxhc3ROYW1lIjoiU2NodXN0ZXIiLCJpYXQiOjE3MDEwNjU2MzV9.ASGWfI9WGVkp0Xid_Z0MYah7tp7PhViTspQmPLjSBNo; Path=/
+Set-Cookie: userID=j%3A%22656433a37d8f9a0014c85b7b%22; Path=/
+Set-Cookie: firstName=Wilmer; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 281
+Etag: W/"119-qadlDOXjwtNT5nPogeRck5nl30g"
+Date: Mon, 27 Nov 2023 06:13:55 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NjQzM2EzN2Q4ZjlhMDAxNGM4NWI3YiIsImZpcnN0TmFtZSI6IldpbG1lciIsImxhc3ROYW1lIjoiU2NodXN0ZXIiLCJpYXQiOjE3MDEwNjU2MzV9.ASGWfI9WGVkp0Xid_Z0MYah7tp7PhViTspQmPLjSBNo",
+    "userID": "656433a37d8f9a0014c85b7b",
+    "firstName": "Wilmer"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701065635&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=hhqRnZl25BtaPupfA2q7sLxsOW9FQT9fMbgVIlWdgOQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701065635&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=hhqRnZl25BtaPupfA2q7sLxsOW9FQT9fMbgVIlWdgOQ%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NjQzM2EzN2Q4ZjlhMDAxNGM4NWI3ZCIsImZpcnN0TmFtZSI6Ik1hcmdhcmV0IiwibGFzdE5hbWUiOiJEYW5pZWwiLCJpYXQiOjE3MDEwNjU2MzZ9.LU1lzno8-w7iElI33Wl31mm5YesdLBKekAGG3KzZiqs; Path=/
+Set-Cookie: userID=j%3A%22656433a37d8f9a0014c85b7d%22; Path=/
+Set-Cookie: firstName=Margaret; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 283
+Etag: W/"11b-pJUIlr/jxM7m5oRt7QaDtZ3M8Hs"
+Date: Mon, 27 Nov 2023 06:13:56 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NjQzM2EzN2Q4ZjlhMDAxNGM4NWI3ZCIsImZpcnN0TmFtZSI6Ik1hcmdhcmV0IiwibGFzdE5hbWUiOiJEYW5pZWwiLCJpYXQiOjE3MDEwNjU2MzZ9.LU1lzno8-w7iElI33Wl31mm5YesdLBKekAGG3KzZiqs",
+    "userID": "656433a37d8f9a0014c85b7d",
+    "firstName": "Margaret"
+}
+Request method:	POST
+Request URI:	https://todo.qacart.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "Selenium Framework",
+    "isCompleted": false
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701065640&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=FROgbG4qi5y86Ajz81KvYp%2FthELweCKpCPKVeXl7xS4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701065640&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=FROgbG4qi5y86Ajz81KvYp%2FthELweCKpCPKVeXl7xS4%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 165
+Etag: W/"a5-DZhrAK2/M2H5I07/c1PhbuScesE"
+Date: Mon, 27 Nov 2023 06:14:00 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "656433a87d8f9a0014c85b7f",
+    "item": "Selenium Framework",
+    "userID": "656433a37d8f9a0014c85b7d",
+    "createdAt": "2023-11-27T06:14:00.338Z",
+    "__v": 0
+}
+]]></system-out>
+    <system-err><![CDATA[1701065630435	Marionette	INFO	Stopped listening on port 58816
+]]></system-err>
+  </testcase>
+  <testcase name="shouldBeAbleToDeleteTodo" classname="com.qacart.todo.testcases.TodoTest" time="20.902">
+    <system-err><![CDATA[1701065644676	Marionette	INFO	Stopped listening on port 58815
+]]></system-err>
+  </testcase>
+</testsuite>

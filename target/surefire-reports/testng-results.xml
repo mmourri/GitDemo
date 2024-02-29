@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-26T22:13:23 PST" name="Surefire suite" finished-at="2023-11-26T22:14:05 PST" duration-ms="42599">
+    <groups>
+    </groups>
+    <test started-at="2023-11-26T22:13:23 PST" name="Surefire test" finished-at="2023-11-26T22:14:05 PST" duration-ms="42599">
+      <class name="com.qacart.todo.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qacart.todo.testcases.LoginTest@6999cd39]" started-at="2023-11-26T22:13:23 PST" name="setup" finished-at="2023-11-26T22:13:43 PST" duration-ms="19701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shouldBeAbleToLoginWithEmailAndPassword()[pri:0, instance:com.qacart.todo.testcases.LoginTest@6999cd39]" started-at="2023-11-26T22:13:43 PST" name="shouldBeAbleToLoginWithEmailAndPassword" description="Test the login functionality using email and password" finished-at="2023-11-26T22:13:49 PST" duration-ms="6142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToLoginWithEmailAndPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qacart.todo.testcases.LoginTest@6999cd39]" started-at="2023-11-26T22:13:50 PST" name="tearDown" finished-at="2023-11-26T22:13:51 PST" duration-ms="1509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToLoginWithEmailAndPassword status=SUCCESS method=LoginTest.shouldBeAbleToLoginWithEmailAndPassword()[pri:0, instance:com.qacart.todo.testcases.LoginTest@6999cd39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qacart.todo.testcases.LoginTest -->
+      <class name="com.qacart.todo.testcases.TodoTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qacart.todo.testcases.TodoTest@14bae047]" started-at="2023-11-26T22:13:23 PST" name="setup" finished-at="2023-11-26T22:13:43 PST" duration-ms="19661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qacart.todo.testcases.TodoTest@14bae047]" started-at="2023-11-26T22:13:23 PST" name="setup" finished-at="2023-11-26T22:13:43 PST" duration-ms="19666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shouldBeAbleToDeleteTodo()[pri:0, instance:com.qacart.todo.testcases.TodoTest@14bae047]" started-at="2023-11-26T22:13:43 PST" name="shouldBeAbleToDeleteTodo" description="Should be able to delete a todo correctly" finished-at="2023-11-26T22:14:04 PST" duration-ms="21023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToDeleteTodo -->
+        <test-method signature="shouldBeAbleToAddNewTodo()[pri:0, instance:com.qacart.todo.testcases.TodoTest@14bae047]" started-at="2023-11-26T22:13:43 PST" name="shouldBeAbleToAddNewTodo" description="Should be able to add a todo correctly" finished-at="2023-11-26T22:14:04 PST" duration-ms="20580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToAddNewTodo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qacart.todo.testcases.TodoTest@14bae047]" started-at="2023-11-26T22:14:04 PST" name="tearDown" finished-at="2023-11-26T22:14:05 PST" duration-ms="1258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToAddNewTodo status=SUCCESS method=TodoTest.shouldBeAbleToAddNewTodo()[pri:0, instance:com.qacart.todo.testcases.TodoTest@14bae047] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qacart.todo.testcases.TodoTest@14bae047]" started-at="2023-11-26T22:14:04 PST" name="tearDown" finished-at="2023-11-26T22:14:05 PST" duration-ms="1196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToDeleteTodo status=SUCCESS method=TodoTest.shouldBeAbleToDeleteTodo()[pri:0, instance:com.qacart.todo.testcases.TodoTest@14bae047] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qacart.todo.testcases.TodoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
