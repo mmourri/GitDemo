@@ -56,7 +56,7 @@ public class Dummy {
     public void printMsg3() {
         System.out.println("Hello dummy5");
         System.out.println("Hello dummy6");
-        System.out.println("Hello dummy7);
+        System.out.println("Hello dummy7");
 
     }
 }
