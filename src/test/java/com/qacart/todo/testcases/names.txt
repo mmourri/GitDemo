@@ -3,8 +3,6 @@ a
 b
 c
 d
-e
-f
 
 numbers
 1
@@ -15,3 +13,4 @@ numbers
 6
 7
 8
+
